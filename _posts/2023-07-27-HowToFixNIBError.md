@@ -27,19 +27,20 @@ AppDelegate.swift 파일에서
 
 1. 일단 xib 파일에 인스펙터 부분에 Identifier를 설정해 주지않은 것!! 
 -> 이것을 설정하면 unable to dequeue a cell with identifier TableViewNameCell 이 Error는 없어진다
-![KakaoTalk_Photo_2023-07-27-15-06-50 002](https://github.com/Luna828/luna828.github.io/assets/93186591/c83f1447-d0bf-4932-87e0-50d79c58dcdf)
+![KakaoTalk_Photo_2023-07-27-15-06-50 002](https://github.com/Luna828/luna828.github.io/assets/93186591/ab3fb7e1-20e8-4149-ac90-fa310f620893)
 
-![KakaoTalk_Photo_2023-07-27-15-06-50 003](https://github.com/Luna828/luna828.github.io/assets/93186591/cfa8f937-3653-4f51-b738-ab6e61fab692)
+![KakaoTalk_Photo_2023-07-27-15-06-50 003](https://github.com/Luna828/luna828.github.io/assets/93186591/53017ea9-da80-4b35-bf53-ce29281422eb)
 
 2. 그 다음으로는 main storyboard tableView에 table view cell을 넣어주지 않은 것 
 -> 이것을 해주지않으면 simulator를 돌렸을 때 화면에 cell들이 그려지지 않는다
    
-![스크린샷 2023-07-27 오후 3 10 39](https://github.com/Luna828/luna828.github.io/assets/93186591/d24dfbe8-32e8-4acb-b17b-d5e3079a48fc)
+![스크린샷 2023-07-27 오후 3 10 39](https://github.com/Luna828/luna828.github.io/assets/93186591/d8d9b79c-9b7c-4d0c-b256-0ce7a9b5ed28)
 
 3. 진짜 가장 어이없었던... TableViewNameCell.xib 파일과 xib파일을 연결시켜둔 TableViewNameCell.swift 파일 이름이 똑같이 않아서이다...
 -> 처음에 강의를 따라하면서 정신없이 따라하다보니 TableViewNameCell.xib라고 만들어두고 swift파일은 TableViewCell이라고 설정해둔 것이다... 그래서 xcode가 실행되면서 nibName에 연결된 것을 찾을 수 없다고 위의 Could not load NIB in bundle: 'NSBundle  이 에러가 뜬 것이었다.. 
 
-![KakaoTalk_Photo_2023-07-27-15-06-50 001](https://github.com/Luna828/luna828.github.io/assets/93186591/be3c619d-7d42-4e5c-a0f1-04649ea43573)
+![KakaoTalk_Photo_2023-07-27-15-06-50 001](https://github.com/Luna828/luna828.github.io/assets/93186591/da698d1d-288e-445b-8bc3-7180db40a624)
+
 
 
 이 세개를 잘 설정하면 Nib Error는 잘 해결할 수 있지 않을까한다... ㅠㅠ 
