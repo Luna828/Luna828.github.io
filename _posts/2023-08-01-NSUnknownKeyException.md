@@ -29,6 +29,7 @@ Memo App을 만들던 도중 MemoCell.xib 파일을 만들어 Table Cell을 새�
 내배캠 튜터님과 같이 구글링해서 찾은 결과..!
 Custom Class의 Module - Inherit Module From Target에 체크가 되어있지 않아 생긴 문제였다!!!
 
+![스크린샷 2023-08-01 오후 8 35 03](https://github.com/Luna828/luna828.github.io/assets/93186591/ff3c15fb-b529-4d07-aa28-24cdeced5d0e)
 
 
 
