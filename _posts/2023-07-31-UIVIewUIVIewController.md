@@ -92,7 +92,9 @@ class MyViewController: UIViewController {
 }
 ```
 
+
 https://github.com/Luna828/luna828.github.io/assets/93186591/9c89fdaa-257b-49e7-85a9-5af2701b6cdb
+
 
 위의 영상에 보이는 것과 같이 1 - 2 - 3 이 순서대로 실행되어 첫번째의 view를 보여준 후 NavigationController를 타고 첫번째의 view가 4 - 5 로 사라지게 된다
 그리고 다시 back 버튼을 사용해 뒤로 가게되면 처음 초기화되는 1. viewDidLoad()는 호출되지 않는다.  
