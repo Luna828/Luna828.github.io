@@ -23,7 +23,7 @@ name                     : "LUNA"
 description              : "앱 개발을 공부중입니다"
 url                      : "https://luna828.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "Luna828/comments"
+repository               : "Luna828/luna828.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/MooMin.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
